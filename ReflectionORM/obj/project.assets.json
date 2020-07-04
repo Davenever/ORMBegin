@@ -510,11 +510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\ReflectionORM\\ReflectionORM.csproj",
+      "projectUniqueName": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\ReflectionORM\\ReflectionORM.csproj",
       "projectName": "ReflectionORM",
-      "projectPath": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\ReflectionORM\\ReflectionORM.csproj",
+      "projectPath": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\ReflectionORM\\ReflectionORM.csproj",
       "packagesPath": "C:\\Users\\华硕\\.nuget\\packages\\",
-      "outputPath": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\ReflectionORM\\obj\\",
+      "outputPath": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\ReflectionORM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -535,8 +535,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\Services\\Services.csproj": {
-              "projectPath": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\Services\\Services.csproj"
+            "E:\\A_Learn\\软谋\\反射\\ORMBegin\\Services\\Services.csproj": {
+              "projectPath": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\Services\\Services.csproj"
             }
           }
         }

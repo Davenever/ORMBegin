@@ -6,9 +6,8 @@ using System.Text;
 namespace Model
 {
     [TableAttribute("Products")]
-    public class Products
+    public class Products: BaseModel
     {
-        public Guid Id { get; set; }
         public string ProductName { get; set; }
         public float ProductPrice { get; set; }
         public string Period { get; set; }

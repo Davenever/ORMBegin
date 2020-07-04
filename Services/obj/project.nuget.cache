@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ogux/vrXl7HPHpbFdjLDR78fMKcMKUlaQEH4Q1AMbZIyY5l0ofT4SNji2IhRZUf8MrxNZaa/DsxcZjCm/MK0xQ==",
+  "dgSpecHash": "Y8gcpoQiLgoG8MQcyCWYqvTa9ZUMbMPuP9MN5HNGLgwYS5LgkJWJQlCweY5S+OC527LdedBnHuWjAbx9jryxFQ==",
   "success": true,
-  "projectFilePath": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\Services\\Services.csproj",
+  "projectFilePath": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\华硕\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\华硕\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

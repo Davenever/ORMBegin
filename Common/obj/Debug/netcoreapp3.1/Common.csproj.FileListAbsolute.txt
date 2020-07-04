@@ -7,3 +7,12 @@ E:\A_Learn\软谋\反射\ReflectionORM\Common\obj\Debug\netcoreapp3.1\Common.Ass
 E:\A_Learn\软谋\反射\ReflectionORM\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
 E:\A_Learn\软谋\反射\ReflectionORM\Common\obj\Debug\netcoreapp3.1\Common.dll
 E:\A_Learn\软谋\反射\ReflectionORM\Common\obj\Debug\netcoreapp3.1\Common.pdb
+E:\A_Learn\软谋\反射\ORMBegin\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+E:\A_Learn\软谋\反射\ORMBegin\Common\bin\Debug\netcoreapp3.1\Common.dll
+E:\A_Learn\软谋\反射\ORMBegin\Common\bin\Debug\netcoreapp3.1\Common.pdb
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.dll
+E:\A_Learn\软谋\反射\ORMBegin\Common\obj\Debug\netcoreapp3.1\Common.pdb

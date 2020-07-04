@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vhyb/f1Js5T7I1j7Mg093l45DXkrqLI98htvyb6YhoNLSY4iLKsOog+9hyP0SrplmGBGWCLvFXk5C+umqggQXQ==",
+  "dgSpecHash": "mQYWfm3c2HPISjNAy1iAHpPg5DXpAQZx0yckfVCj9QuNham/OJuW9ICn0fm3D8ThoENZlRLSYA+As5yHU/BayA==",
   "success": true,
-  "projectFilePath": "E:\\A_Learn\\软谋\\反射\\ReflectionORM\\Model\\Model.csproj",
+  "projectFilePath": "E:\\A_Learn\\软谋\\反射\\ORMBegin\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

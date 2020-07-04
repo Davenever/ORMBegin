@@ -1,6 +1,8 @@
 ﻿using Model;
 using Services;
 using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Threading.Tasks;
 
 namespace ReflectionORM
@@ -18,6 +20,16 @@ namespace ReflectionORM
                 Remarks = "无备注",
                 Date = DateTime.Now
             });
+            Shops shops = await sqlHelper.Find<Shops>(Guid.Parse("C27DB4DF-E208-4E6F-B416-698743FF9051"));
+            shops.ShopName = "商铺1";
+            var datas = sqlHelper.Update<Shops>(shops);
+            //var data = await sqlHelper.Delete<Shops>(new List<Shops>
+            //{
+            //    new Shops{ Id=Guid.Parse("c27db4df-e208-4e6f-b416-698743ff9053")},
+            //     new Shops{ Id=Guid.Parse("c27db4df-e208-4e6f-b416-698743ff9055")}
+            //});
+
+            //   var data = await sqlHelper.Delete<Shops>(Guid.Parse("C27DB4DF-E208-4E6F-B416-698743FF9059"));
             Console.ReadKey();
             Console.WriteLine("Hello World!");
         }

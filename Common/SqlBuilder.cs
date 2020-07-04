@@ -14,6 +14,8 @@ namespace Common
     {
         private static string FindOneSql = string.Empty;
         private static string InsertSql = string.Empty;
+        private static string UpdateSql = string.Empty;
+        private static string DeleteSql = string.Empty;
         static SqlBuilder()
         {
             #region 添加
@@ -29,7 +31,18 @@ namespace Common
             //将查询到的(数组列)每一列以逗号隔开拼成字符串
             string columnStrings = string.Join(",", type.GetProperties().Select(m => $"[{m.GetMappingName()}]"));
             //type.GetMappingName()=>得到特性上的参数
-            FindOneSql = $@"SELECT {columnStrings} FROM [{type.GetMappingName()}] Where Id=";
+            FindOneSql = $@"SELECT {columnStrings} FROM [{type.GetMappingName()}] Where Id=@id";
+            #endregion
+
+            #region 修改
+            //type.GetPropertyWithoutKey()  过滤掉主键,主键不能更新,不然会报错
+            //m.GetMappingName() 映射--解决数据库中名称与程序中名称不一致
+            string updateStr = string.Join(",", type.GetPropertyWithoutKey().Select(m => $"{m.GetMappingName()}=@{m.GetMappingName()}"));
+            UpdateSql = @$"update [{type.GetMappingName()}] set {updateStr} where id=";
+            #endregion
+
+            #region 删除
+            DeleteSql = $"delete from {type.GetMappingName()} where id=@id";
             #endregion
         }
 
@@ -41,6 +54,10 @@ namespace Common
                     return FindOneSql;
                 case SqlType.InsertSql:
                     return InsertSql;
+                case SqlType.UpdateSql:
+                    return UpdateSql;
+                case SqlType.DeleteSql:
+                    return DeleteSql;
                 default:
                     throw new Exception("wrong SqlType");
             }
@@ -49,7 +66,9 @@ namespace Common
         public enum SqlType
         {
             FindOneSql,
-            InsertSql
+            InsertSql,
+            UpdateSql,
+            DeleteSql
         }
     }
 }
